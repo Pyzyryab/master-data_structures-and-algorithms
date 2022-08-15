@@ -42,7 +42,7 @@ int sum_with_loop(int n)
 {
     int t, s = 0;
 
-    for (int i = 0; i <= n; i++)
+    for (int i = 0; i < n; i++)
         s = s + i;
 
     return s;
